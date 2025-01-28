@@ -1,0 +1,108 @@
+
+window {
+    background-color: #000000;
+}
+
+* {
+    font-family:Font Awesome, Terminus;
+    font-size: 12px;
+}
+
+#workspaces button {
+    color: #666666;
+    border-radius: 0px;
+}
+
+#workspaces button.active { 
+    color: white;
+}
+
+#workspaces button:hover {
+    color: black;
+}
+
+#workspaces button.urgent {
+    color: #cc2229;
+}
+
+#window {
+    color: white;
+    font-weight: bold;
+    padding-top: 1px
+}
+
+#clock {
+    color: white;
+}
+
+#temperature {
+    margin-right: 5px;
+    color: white;
+}
+#memory {
+    margin-right: 5px;
+    color: white;
+}
+#cpu {
+    color: white;
+}
+
+#pulseaudio {
+    margin-right: 10px;
+    color: white;
+}
+
+#battery {
+    margin-right: 10px;
+    color: white;
+}
+
+#custom-terminal {
+    background-color: #3a3b3c;
+    padding: 0px 10px;
+    color: white;
+}
+
+#window {
+    margin-left: 15px;
+    padding-top: 2px;
+}
+
+#taskbar {
+    padding-top: 2px;
+}
+
+#taskbar button{
+    margin-right: 20px;
+    padding: 0;
+    border-radius: 0;
+}
+
+#taskbar button:hover {
+    color: white;
+    background-color: #000000;
+}
+
+#custom-pacman {
+    background-color: #3a3b3c;
+    padding: 2px 15px 0;
+    color: white;
+}
+
+#custom-write { 
+	padding: 2px 15px 0; 
+    background-color: #555555; 
+    color: white;
+    padding-top: 2px;
+} 
+
+#tray {
+    margin-right: 10px;
+    padding-top: 2px;
+}
+
+#tray menu {
+    background-color: #555555;
+    color: white;
+    border-radius: 0px;
+}
